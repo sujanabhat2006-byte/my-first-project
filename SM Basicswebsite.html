@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="SM Basicswebsite.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="home-section-background d-flex flex-column justify-content-end">
+            <div class="home-section-card-containder">
+                <h1 class="home-section-heading">Stock Market Learning Hub</h1>
+                <p class="home-section-paragraph">Learn investing step by step from basics to smart strategies.</p>
+                <button class="home-section-button" onclick="display('sectionList')">Start Learning</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionList">
+        <div class="list-section-background-container">
+            <h1 class="list-section-main-heading"> Popular Market Topics</h1>
+            <div class="list-section-card-container d-flex flex-row" onclick="display('sectionBasics')">
+                <div class="list-section-text-container">
+                    <h1 class="list-section-card-heading">Stock Market Basics</h1>
+                    <p class="list-section-discription">Understand how the market works</p>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/bull-bear-suits-trading-stock-market-graphs-background_1019437-656.jpg" class="list-section-card-image" />
+            </div>
+            <div class="list-section-card-container d-flex flex-row" onclick="display('sectionfundamental')">
+                <div class="list-section-text-container">
+                    <h1 class="list-section-card-heading">Fundamental Analysis</h1>
+                    <p class="list-section-discription">Study company financials</p>
+                </div>
+                <img src="https://cdn.corporatefinanceinstitute.com/assets/fundamental-analysis.jpeg" class="list-section-card-image" />
+            </div>
+            <div class="list-section-card-container d-flex flex-row" onclick="display('sectiontechnical')">
+                <div class="list-section-text-container">
+                    <h1 class="list-section-card-heading">Technical Analysis </h1>
+                    <p class="list-section-discription">Learn charts & indicators</p>
+                </div>
+                <img src="https://static.news.bitcoin.com/wp-content/uploads/2022/06/shutterstock_2158958467.jpg" class="list-section-card-image" />
+            </div>
+            <div class="list-section-card-container d-flex flex-row" onclick="display('sectionriskmanagement')">
+                <div class="list-section-text-container">
+                    <h1 class="list-section-card-heading">Risk Management </h1>
+                    <p class="list-section-discription">Protect your capital</p>
+                </div>
+                <img src="https://ipkeys.com/wp-content/uploads/2022/08/RMF-7-Steps-1024x576.jpeg" class="list-section-card-image" />
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+    <div id="sectionBasics">
+        <div class="detail-view-background-container">
+            <h1 class="detail-view-main-heading">Detailed View</h1>
+            <div class="detail-view-card-container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://digitycoonacademy.com/wp-content/uploads/2023/04/Course-Images-8.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wallpaperaccess.com/full/8434088.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://tradebrains.in/wp-content/uploads/2019/10/national-stock-exchange-nse.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+                <div class="detail-view-text-container">
+                    <h1 class="text-container-heading">Stock Market Basics</h1>
+                    <p class="text-container-paragraph">The stock market is a place where shares of companies are bought and sold. When you buy a share, you become a small owner of that company. Prices go up and down based on company performance, news, and investor demand. Understanding basics helps beginners invest with confidence.</p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionList')">Back</button>
+        </div>
+    </div>
+    <div id="sectionfundamental">
+        <div class="detail-view-background-container">
+            <h1 class="detail-view-main-heading">Detailed View</h1>
+            <div class="detail-view-card-container">
+                <div id="fundamentalcarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#fundamentalcarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#fundamentalcarousel" data-slide-to="1"></li>
+                        <li data-target="#fundamentalcarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.tickertape.in/blog/wp-content/uploads/2021/05/Fundamental-vs-Technical.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.tickertape.in/blog/wp-content/uploads/2021/05/Tools-of-fundamental-analysis-.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.tickertape.in/blog/wp-content/uploads/2022/08/TT-9-Aug-Fundamental-Analysis-BB-01.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#fundamentalcarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#fundamentalcarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+                <div class="detail-view-text-container">
+                    <h1 class="text-container-heading">Fundamental Analysis</h1>
+                    <p class="text-container-paragraph">Fundamental analysis studies a company’s financial health. It includes checking revenue, profit, balance sheet, debt, and future growth. Investors use this method to find strong companies for long-term investment.</p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionList')">Back</button>
+        </div>
+    </div>
+    <div id="sectiontechnical">
+        <div class="detail-view-background-container">
+            <h1 class="detail-view-main-heading">Detailed View</h1>
+            <div class="detail-view-card-container">
+                <div id="technicalcarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#technicalcarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#technicalcarousel" data-slide-to="1"></li>
+                        <li data-target="#technicalcarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.ytimg.com/vi/Yv2iYYewdf0/maxresdefault.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ytimg.com/vi/X-9BBJo6ZxQ/maxresdefault.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://static.news.bitcoin.com/wp-content/uploads/2022/06/shutterstock_2158958467.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#technicalcarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#technicalcarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+                <div class="detail-view-text-container">
+                    <h1 class="text-container-heading">Technical Analysis</h1>
+                    <p class="text-container-paragraph">Technical analysis focuses on price charts and patterns. It uses indicators like moving averages, RSI, and support–resistance levels. This method helps traders decide when to buy or sell stocks in the short term.</p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionList')">Back</button>
+        </div>
+    </div>
+    <div id="sectionriskmanagement">
+        <div class="detail-view-background-container">
+            <h1 class="detail-view-main-heading">Detailed View</h1>
+            <div class="detail-view-card-container">
+                <div id="riskmanagementcarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#riskmanagementcarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#riskmanagementcarousel" data-slide-to="1"></li>
+                        <li data-target="#riskmanagementcarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.broward.org/RiskManagement/PublishingImages/RM-Risk.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://pressbooks.bccampus.ca/projectcostsrisksqualityprocurement/wp-content/uploads/sites/1563/2021/12/Risk-Management-Success-1536x829.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.currencytransfer.com/wp-content/uploads/2022/08/currency-risk-management-3-edit.min_.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#riskmanagementcarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#riskmanagementcarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+                <div class="detail-view-text-container">
+                    <h1 class="text-container-heading">Risk Management</h1>
+                    <p class="text-container-paragraph">Risk management is about protecting your money. It includes using stop-loss, investing only what you can afford to lose, and diversifying your portfolio. Good risk.</p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionList')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js">
+    </script>
+</body>
+
+</html>

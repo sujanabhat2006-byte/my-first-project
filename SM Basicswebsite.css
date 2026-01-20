@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-section-background {
+    background-image: url("https://wallpaperaccess.com/full/4641800.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home-section-card-containder {
+    background-color: #ffffff;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-width: 0px;
+    text-align: center;
+}
+
+.home-section-heading {
+    font-family: "bree serif";
+    font-size: 30px;
+    font-weight: bold;
+    color: #191970;
+}
+
+.home-section-paragraph {
+    font-family: "roboto";
+    font-size: 15px;
+    color: #708090;
+}
+
+.home-section-button {
+    font-size: 10px;
+    border-radius: 13px;
+    border-width: 0px;
+    color: white;
+    width: 80px;
+    padding: 8px;
+    background-color: #25b1cc;
+}
+
+.list-section-background-container {
+    background-image: url("https://cdn.wallpapersafari.com/26/53/9xLy1r.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.list-section-main-heading {
+    font-family: "bree serif";
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFF8DC;
+    padding: 15px;
+}
+
+.list-section-card-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 15px;
+}
+
+.list-section-text-container {
+    padding: 10px;
+}
+
+.list-section-card-heading {
+    font-family: "roboto";
+    font-size: 23px;
+    font-weight: bold;
+    color: #353839;
+}
+
+.list-section-discription {
+    font-family: "roboto";
+    font-size: 13px;
+    color: #536878;
+}
+
+.list-section-card-image {
+    height: 90px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.detail-view-background-container {
+    background-image: url("https://cdn.wallpapersafari.com/26/53/9xLy1r.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.detail-view-main-heading {
+    font-family: "bree serif";
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFF8DC;
+    padding: 20px;
+}
+
+.detail-view-card-container {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 20px;
+}
+
+.detail-view-text-container {
+    padding: 20px;
+}
+
+.text-container-heading {
+    font-family: "roboto";
+    font-size: 28px;
+    font-weight: bold;
+    color: #006994;
+}
+
+.text-container-paragraph {
+    font-family: "roboto";
+    font-size: 15px;
+    color: #708090;
+}  
